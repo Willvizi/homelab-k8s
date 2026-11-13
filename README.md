@@ -1,6 +1,6 @@
 # homelab-k8s
 
-Repositório GitOps gerenciado pelo ArgoCD no cluster k3s (Oracle Cloud ARM64).
+Repositório GitOps gerenciado pelo ArgoCD no cluster k3s.
 
 ## Apps
 - `apps/uptime-kuma`

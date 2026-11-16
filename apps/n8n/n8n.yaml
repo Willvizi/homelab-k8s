@@ -8,7 +8,7 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 2Gi
+      storage: 4Gi
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -53,10 +53,10 @@ spec:
           resources:
             requests:
               cpu: "100m"
-              memory: "256Mi"
+              memory: "1024Mi"
             limits:
               cpu: "500m"
-              memory: "768Mi"
+              memory: "4096Mi"
       volumes:
         - name: data
           persistentVolumeClaim:
